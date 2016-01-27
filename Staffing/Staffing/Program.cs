@@ -10,6 +10,11 @@ namespace Staffing
     {
         static void Main(string[] args)
         {
+            
+        }
+        static void DoSomthing()
+        {
+            Console.WriteLine("I'm doing something now!");
         }
     }
 }
