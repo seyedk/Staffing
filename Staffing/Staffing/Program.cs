@@ -16,5 +16,9 @@ namespace Staffing
         {
             Console.WriteLine("I'm doing something now!");
         }
+        static void Feature()
+        {
+            Console.WriteLine("Feature 01 has been implemented!");
+        }
     }
 }
