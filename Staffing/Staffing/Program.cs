@@ -31,5 +31,9 @@ namespace Staffing
         {
             Console.WriteLine("Feature is done!");
         }
+        static void DoFeature2()
+        {
+            Console.WriteLine("Feature is done!");
+        }
     }
 }
