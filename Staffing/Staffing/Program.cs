@@ -27,5 +27,9 @@ namespace Staffing
             var keyedin = Console.ReadLine();
             Console.WriteLine("You keyed in: {0}", keyedin);
         }
+        static void DoFeature()
+        {
+            Console.WriteLine("Feature is done!");
+        }
     }
 }
