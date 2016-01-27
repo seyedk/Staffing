@@ -20,5 +20,12 @@ namespace Staffing
         {
             Console.WriteLine("Feature 01 has been implemented!");
         }
+        static void ExternalAccess()
+        {
+            //added by external user.
+            Console.Write("Please enter your key:");
+            var keyedin = Console.ReadLine();
+            Console.WriteLine("You keyed in: {0}", keyedin);
+        }
     }
 }
